@@ -1,0 +1,179 @@
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 40px;
+}
+.menu{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+.item-menu{
+    list-style-type: none;
+}
+.item-link{
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 2px 3px #678983;
+    padding: 10px;
+    background-color: #E6DDC4;
+    color: #181D31;
+    font-weight: 300;
+}
+
+body{
+    background-color: rgb(24,28,48);
+    color: #E6DDC4;
+    margin: 0;
+}
+
+header{
+    background: url(./assets/imagenes/codigo.jpg) 50% 0 fixed;
+    background-size: cover;
+    min-height: 500px;
+    color: #eeeeee;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+h1{
+text-shadow: 2px 2px gray, 6px 6px black;
+}
+
+.titulo{
+    text-align: center;
+}
+
+h2{
+    text-shadow: 2px 2px black;
+    font-size: 40px;
+    text-align: center;
+    color:#678983;
+}
+
+.contenedor{
+    margin: 100px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+main{
+    padding: 100px 20px;
+}
+
+.card{
+    width: 350px;
+    height: 400px;
+    border: 5px solid #678983;
+    background-color: #E6DDC4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgc{
+    width: 100%;
+    margin: 0px;
+}
+
+.descripcion{
+    width: 90%;
+    text-align: center;
+    height: 30px;
+    color: #181D31;
+}
+
+.boton-ver{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #181D31;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 3px #678983;
+    text-align: center;
+    text-decoration: none;
+    width: 40%;
+    margin-bottom: 20px;
+    color: #F0F5E4;
+}
+
+footer{
+    background-color: #678983;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    color: #181D31;
+}
+
+.footer-left{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 60px;
+}
+
+.logo{
+    height: 80px;
+}
+
+.titulo-foot{
+    text-align: center;
+    font-size: 14px;
+}
+
+.txtHist{
+    width: 45%;
+}
+
+.hist{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 50px;
+    gap: 20px;
+}
+
+.contHist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contVideo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.cont{
+    padding: 5px;
+    background-color: black;
+    width: 1050px;
+    height: 590px;
+}
+
+.video{
+    width: 960px;
+    height: 500px;
+}
+
+#fluid_video_wrapper_video{
+    width: 100% !important;
+    height: 100% !important;
+}
