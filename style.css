@@ -10,8 +10,10 @@ nav{
     margin: 0px 40px;
 }
 .menu{
-    display: flex;
     width: 300px;
+}
+.menuheader{
+    display: flex;
     justify-content: space-around;
 }
 .item-menu{
@@ -39,8 +41,6 @@ header{
     min-height: 500px;
     color: #eeeeee;
     font-size: 28px;
-    display: flex;
-    justify-content: space-around;
     align-items: center;
     padding: 0px 100px;
 }
@@ -146,18 +146,15 @@ footer{
     gap: 20px;
 }
 
-.contHist{
+.contGral{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+
 .contVideo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 100px 0px;
 }
 
